@@ -1,0 +1,73 @@
+🤖 Chatbot using NLP & Streamlit
+
+An interactive AI-powered chatbot built with Natural Language Processing (NLP) techniques and Logistic Regression, wrapped in a clean Streamlit web interface. The chatbot learns from predefined intents and generates contextual responses. It also keeps a conversation history for review.
+
+🚀 Features
+
+🧠 Intent Recognition using TfidfVectorizer + Logistic Regression
+
+💬 Interactive Chat UI powered by Streamlit
+
+🗂 Conversation History stored in chat_log.csv
+
+📑 Multi-page Sidebar → Home | Conversation History | About
+
+🔄 Randomized Responses for natural feel
+
+📚 Custom Intents Support (via intents.json)
+
+🛠️ Tech Stack
+
+Python
+
+NLTK → Tokenization & Text Processing
+
+scikit-learn → Machine Learning (Logistic Regression + TF-IDF)
+
+Streamlit → Web-based chatbot interface
+
+CSV → Conversation logging
+
+⚡ Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/chatbot-nlp.git
+cd chatbot-nlp
+
+2️⃣ Install Dependencies
+pip install -r requirements.txt
+
+
+requirements.txt should include:
+
+streamlit
+scikit-learn
+nltk
+
+3️⃣ Run the App
+streamlit run chatbot.py
+
+📊 How It Works
+
+Intents Dataset (intents.json) contains patterns & responses.
+
+TF-IDF Vectorizer converts text into numerical features.
+
+Logistic Regression Model predicts the user’s intent.
+
+Chatbot Function picks a suitable response at random.
+
+Streamlit UI provides real-time interaction & saves history.
+
+🔮 Future Improvements
+
+🤝 Integrate with APIs for real-time data
+
+🧑‍🏫 Use Deep Learning models (RNN, Transformers) for advanced NLP
+
+🌍 Multi-language support
+
+🎨 Improved UI with custom themes
+
+👨‍💻 Author
+
+Developed by Shriraj Manohar Erwadkar ✨
